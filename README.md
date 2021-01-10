@@ -70,4 +70,6 @@ Input Image -> Feature extraction on whole image ( Region Proposal Network RPN, 
 Image grid 13 x 13 -> uses darknet 19 architecture - CONV and Batch Normalisation layers are used -> More than 2 Bounding boxes
 4) Yolo V3 
 Multi classification -> Darknet 53 + other 53 layer ( totak 106  layers ) - Feature Pyramid network -> uses features of different scale to predict the o/p.
+Slower than yolo v2 but more accurate 
+High performance on smaller objects
 
