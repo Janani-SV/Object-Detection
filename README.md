@@ -66,7 +66,7 @@ Input Image -> Feature extraction on whole image ( Region Proposal Network RPN, 
 2) **SDD**\
    Uses VGG16 architecture  + other CONV layer ->  Image Pyramid Network ->  Non max suppression \
    output - 2BB(10) rest 20 ( classes ) 
-3) **Yolo V2**\ 
+3) **Yolo V2**\
    Image grid 13 x 13 -> uses darknet 19 architecture - CONV and Batch Normalisation layers are used -> More than 2 Bounding boxes
 4) **Yolo V3**\
    Multi classification -> Darknet 53 + other 53  layer ( totak 106  layers ) - Feature Pyramid network -> uses features of different scale to predict the o/p. \
