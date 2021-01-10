@@ -43,7 +43,7 @@ Classify the blank patches
 
 
    
-## So comes the Region based CNN
+## So comes the **Two Stages Methods**  Region based CNN
 ## R-CNN
 
  Generate Region Proposals ( Selective Search Algo ) -> Extract features using (AlexNet) -> Using features classification and localisation is done \
@@ -59,7 +59,7 @@ Input Image -> Feature extraction on whole image ( Region Proposal Network RPN, 
 
 
 
-## To combine the Region Proposal Network and ROI mapping  ** Single Stage Learning ** was introduced 
+## To combine the Region Proposal Network and ROI mapping  **Single Stage Methods** was introduced 
 1) **Yolo V1**\
    Divides image 7x7 grid -> useses DarkNet 16 architecture -> Sliding Window approach -> Non max Suppression to reduce the bounding boxes 
   
